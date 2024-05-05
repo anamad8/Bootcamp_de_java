@@ -1,0 +1,20 @@
+package bootcamp_test;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		int edad = 0;
+		
+		Scanner sc = new Scanner(System.in);
+		int i = sc.nextInt();
+		
+		if (edad >= 18) {
+			System.out.println("Es mayor de edad");
+		}else {
+			System.out.println("Es menor de edad");
+		}
+	}
+
+}

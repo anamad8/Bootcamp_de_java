@@ -1,0 +1,46 @@
+package bootcamp_test;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+	
+		Scanner cargaDatos = new Scanner(System.in);
+		
+		//Peso en kg / altura en m2.
+		System.out.println("Ingrese su peso: ");
+		double peso = cargaDatos.nextDouble();
+		
+		System.out.println("Ingrese su altura: ");
+		double altura = cargaDatos.nextDouble();
+		
+		double indeceMasaCorporal = peso / (altura * altura);
+		
+		if(indeceMasaCorporal >= 30) {
+			System.out.println("Estas en estado de OBESISDAD");
+		}else if((indeceMasaCorporal >= 25) && (indeceMasaCorporal < 30)){
+			System.out.println("Estas en estado de SOBRE PESO");
+		}else if((indeceMasaCorporal >= 18.5) && (indeceMasaCorporal < 25)){
+			System.out.println("Estas en estado NORMAL");
+		}else {
+			System.out.println("Estas en estado de BAJO EN PESO");
+		}
+		
+		System.out.println("Su indece de masa corporal es: " + indeceMasaCorporal);
+		
+		
+		
+	
+		
+		/*System.out.println("¿Que edad tienes?");
+		Scanner sc = new Scanner(System.in);
+		int edad = sc.nextInt();
+		
+		if (edad >= 18) {
+			System.out.println("Es mayor de edad");
+		}else {
+			System.out.println("Es menor de edad");
+		}*/
+	}
+
+}
