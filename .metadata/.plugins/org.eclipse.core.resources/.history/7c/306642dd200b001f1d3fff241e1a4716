@@ -1,0 +1,18 @@
+package Ejercicio_4;
+
+public class Ejercicio_4 {
+public static void main(String[] args) {
+		
+		System.out.println("Ejercico 4");
+		
+		/*
+		 Calcualadora de propinas:
+		 Pidele al usuario que ingrese el total de la cuanta en un restaurante.
+		 Pidele al uauario que ingrese el porsentaje de propina que desea dejar.
+		 Calucla el monto de la propina utilizado la formula:
+		 propina = totalCuenta * (totalPropina / 100).
+		 muestra el precio final ala usuario.
+		  
+		*/
+	}
+}

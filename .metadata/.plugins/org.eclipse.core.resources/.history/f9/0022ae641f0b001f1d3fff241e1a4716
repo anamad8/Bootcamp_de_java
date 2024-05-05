@@ -1,0 +1,16 @@
+package Ejercicio_2;
+
+public class Ejercicio_2 {
+	public static void main(String[] args) {
+		
+		/*
+		 Conversosr de millas a Kilometros:
+		 Pidele al usuario que ingrese una distancia en milla.
+		 Conviverte la distancia a lilometros utilizando la formula: kilometros * millas * 1.60934.
+		 Mustra la distancia en kilometros al usuario. 
+		  
+		*/
+		
+		System.out.println("Ejercico 2");
+	}
+}

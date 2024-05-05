@@ -1,0 +1,8 @@
+package Ejercicio_2;
+
+public class Ejercico_2 {
+	public static void main(String[] args) {
+		
+		System.out.println("Ingresa la edad de tu perro: ");
+	}
+}

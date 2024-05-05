@@ -1,0 +1,18 @@
+package Ejercicio_3;
+
+public class Ejercicio_3 {
+public static void main(String[] args) {
+		
+		System.out.println("Ejercico 3");
+		
+		/*
+		 Calcualadora de descuanto:
+		 Pidele al usuario que ingrese un precio original de un producto.
+		 Pidele al uauario que ingrese el porsentaje de descuento.
+		 Calucla el precio final despues de aplicar el descuanto utilizado la formula:
+		 preciafinal = peciaOriginal - (precioOriginal * descuanto / 100).
+		 muestra el precio final ala usuario.
+		  
+		*/
+	}
+}
