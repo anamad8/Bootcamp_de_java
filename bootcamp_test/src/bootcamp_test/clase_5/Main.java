@@ -2,10 +2,10 @@ package bootcamp_test.clase_5;
 
 import java.util.Scanner;
 
-import Ejercicio_1.Ejercicio_1;
-import Ejercicio_2.Ejercicio_2;
-import Ejercicio_3.Ejercicio_3;
-import Ejercicio_4.Ejercicio_4;
+import calse_5_ejercicio_1.Ejercicio_1;
+import clase_5_ejercicio_2.Ejercicio_2;
+import clase_5_ejercicio_ejercicio_3.Ejercicio_3;
+import clase_5_ejercicio_ejercicio_4.Ejercicio_4;
 
 public class Main {
 	public static void main(String[] args) {
