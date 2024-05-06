@@ -1,0 +1,25 @@
+package clase_6_ejercicio_1;
+
+import java.util.Scanner;
+
+public class Ejercicio_1 {
+	public static void main(String[] args) {
+		/*
+		 	Armar un buscador de paises con gogle maps.
+		 	Primero pidele al usuario que ingrese un pais (Ej: Colombia).
+		 	Despues muestra en consola la concatenacion de:
+		 	"https://www.gogle.com/maps/search/" + pais
+		 	Entosnces cuiando hagas click ene le link uqe aparesca en la consola, te abrira esa ubicacion.
+		 */
+
+		        Scanner cargaDatos = new Scanner(System.in);
+
+		        System.out.println("Ingresa el nombre de un país: ");
+		        String pais = cargaDatos.nextLine(); 
+
+		        String url = "https://www.google.com/maps/search/" + pais;
+		        System.out.println("URL generada: <a href=\"" + url + "\">" + url + "</a>");
+		        cargaDatos.close();
+		    
+	}
+}
