@@ -1,0 +1,12 @@
+package clase_8_ejercicio_1;
+
+public class Ejercicio_1 {
+
+	public static void main(String[] args) {
+		/* Hacer una funcion que muestre el area de un cuadrado. 
+		 	Que luego lo mouestre por consola
+		*/
+		
+	}
+
+}

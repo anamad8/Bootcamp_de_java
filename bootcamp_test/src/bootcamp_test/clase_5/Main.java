@@ -7,6 +7,8 @@ import clase_5_ejercicio_2.Ejercicio_2;
 import clase_5_ejercicio_ejercicio_3.Ejercicio_3;
 import clase_5_ejercicio_ejercicio_4.Ejercicio_4;
 
+
+/*Clase de arimeticos y logica*/
 public class Main {
 	public static void main(String[] args) {
 		

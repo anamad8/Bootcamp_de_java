@@ -1,0 +1,21 @@
+package clase_8_ejercicio_1;
+
+import java.util.Scanner;
+
+public class Ejercicio_1 {
+
+	public static void main(String[] args) {
+	        /* Hacer una función que muestre el área de un cuadrado. 
+	            Que luego lo muestre por consola
+	        */
+	        int lado = 5;
+	        calcularAreaCuadrado(lado);
+	    }
+	    
+	    private static void calcularAreaCuadrado(int lado) {
+	        int area;
+	        area = lado * lado;
+	        System.out.println("El área del cuadrado es: " + area);
+	    }
+
+}

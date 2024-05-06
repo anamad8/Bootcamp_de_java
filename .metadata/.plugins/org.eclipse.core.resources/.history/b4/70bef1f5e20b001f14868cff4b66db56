@@ -1,0 +1,49 @@
+package com.example.bootcamp;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MainController {
+	
+	@GetMapping("/hacer-algo")
+	public String primeraPrueba() {
+		return "Hoal mundo";
+	}
+	
+	@GetMapping("/generar-passoword")
+	public  String generarPassoword() {
+		double aleatorio = Math.random() * 1000000;
+		long numeroAleatorio = Math.round(aleatorio);
+		
+		String passoword = "asdaskd" + numeroAleatorio;
+		return passoword;
+	}
+	
+	@GetMapping("/tranformar-a-codigo-morse")
+	public String tranformarACodigoMorse() {
+		String texto = "ABACABB";
+		
+		String[] tablaAbc = {"A", "B", "C"};
+		String[] tablaCodigoMorse = {".-", "-...", "-.-."};
+		String codigoTranformado = "";
+		
+		for(int i = 0; i < texto.length(); i++) {
+			String letraDeTexto = "" +  texto.charAt(i);
+			
+			
+			for(int j = 0; j < tablaAbc.length; j++) {
+				String letraTablaAbc =  tablaAbc[j];
+				if(letraTablaAbc.equals(letraTablaAbc)) {
+					String caracterEnCodigoMorse = tablaCodigoMorse[j];
+					
+					codigoTranformado += "  /  "+ caracterEnCodigoMorse;
+				}
+						
+			}
+		}
+		
+		return codigoTranformado;
+	}
+
+}

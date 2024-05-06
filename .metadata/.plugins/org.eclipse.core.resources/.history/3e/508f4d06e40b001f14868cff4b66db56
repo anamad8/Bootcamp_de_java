@@ -1,0 +1,62 @@
+package com.example.bootcamp;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MainController {
+	
+	@GetMapping("/hacer-algo")
+	public String primeraPrueba() {
+		return "Hoal mundo";
+	}
+	
+	@GetMapping("/generar-passoword")
+	public  String generarPassoword() {
+		double aleatorio = Math.random() * 1000000;
+		long numeroAleatorio = Math.round(aleatorio);
+		
+		String passoword = "asdaskd" + numeroAleatorio;
+		return passoword;
+	}
+	
+	@GetMapping("/transformar-a-codigo-morse/{texto}")
+	public String transformarACodigoMorse(@PathVariable String texto) {
+	    
+	    texto = texto.toUpperCase();
+
+	    String[] tablaAbc = {"A", "B", "C"};
+	    String[] tablaCodigoMorse = {".-", "-...", "-.-."};
+	    StringBuilder codigoTransformado = new StringBuilder();
+
+	    for (int i = 0; i < texto.length(); i++) {
+	        char letraDeTexto = texto.charAt(i);
+	        boolean letraEncontrada = false;
+
+	        if (letraDeTexto == ' ') {
+	            
+	            codigoTransformado.append(" ");
+	            continue; 
+	        }
+
+	        for (int j = 0; j < tablaAbc.length; j++) {
+	            if (letraDeTexto == tablaAbc[j].charAt(0)) {
+	           
+	                codigoTransformado.append(tablaCodigoMorse[j]).append(" / ");
+	                letraEncontrada = true;
+	                break;
+	            }
+	        }
+
+	        if (!letraEncontrada) {
+	            codigoTransformado.append("[Caracter no soportado]").append(" / ");
+	        }
+	    }
+
+	    return codigoTransformado.toString();
+	}
+
+
+
+}

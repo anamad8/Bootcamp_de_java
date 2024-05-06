@@ -1,0 +1,8 @@
+package com.example.bootcamp;
+
+public class MainController {
+	
+	public String primeraPrueba() {
+		return "Hoal mundo";
+	}
+}

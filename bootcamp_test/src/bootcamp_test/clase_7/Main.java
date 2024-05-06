@@ -6,6 +6,7 @@ import clase_6_ejercicio_1.Ejercicio_1;
 import clase_6_ejercicio_2.Ejercicio_2;
 import clase_6_ejercicio_3.Ejercicio_3;
 
+/*Clase de array*/
 public class Main {
 	public static void main(String[] args) {
 		

@@ -7,9 +7,7 @@ import clase_7_ejercicio_2.Ejercicio_2;
 import clase_7_ejercicio_3.Ejercicio_3;
 
 
-
-
-
+/*Clase Datos primitivos y Bucles while*/
 public class Clase_6 {
 	public static void main(String[] args) {
 			
