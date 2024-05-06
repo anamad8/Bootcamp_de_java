@@ -2,9 +2,11 @@ package bootcamp_test.clase_6;
 
 import java.util.Scanner;
 
-import clase_6_ejercicio_1.Ejercicio_1;
-import clase_6_ejercicio_2.Ejercicio_2;
-import clase_6_ejercicio_3.Ejercicio_3;
+import clase_7_ejercicio_1.Ejercicio_1;
+import clase_7_ejercicio_2.Ejercicio_2;
+import clase_7_ejercicio_3.Ejercicio_3;
+
+
 
 
 
