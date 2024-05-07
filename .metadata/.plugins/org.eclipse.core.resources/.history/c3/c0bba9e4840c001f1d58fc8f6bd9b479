@@ -1,0 +1,32 @@
+package com.bootcamp.bootcamp;
+
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class BusquedaController {
+	
+	
+	@GetMapping("/busqueda-usuario/{busqueda}")
+	public String[] obtenerPalabraAutocompletar(@PathVariable String busqueda){
+		
+		String[] fracesTipicaDeBusqueda = {"bootcamp de java", "bootcamp de python", 
+				"curso de node", "curso de C", "bootcamp avanzado de java"};	
+
+		String[] resultadoDeLaBusqueda = new String[10];
+		int contador = 0;
+		
+		for(String frace : fracesTipicaDeBusqueda) {
+			if(frace.toLowerCase().contains(frace.toLowerCase()) ) {
+				resultadoDeLaBusqueda[contador] = frace;
+				contador++;
+			}
+		}
+	return resultadoDeLaBusqueda;
+		return fracesTipicaDeBusqueda;
+	}
+}

@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="Ejercicio_3.Ejercicio_3"/>
     <fullyQualifiedTypeName name="Ejercico_4.Ejercicio_4"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="clase_6_ejercicio_1.Ejercicio_1"/>
     <fullyQualifiedTypeName name="clase_6_ejercicio_2.Ejercicio_2"/>
     <fullyQualifiedTypeName name="clase_6_ejercicio_3.Ejercicio_3"/>
     <fullyQualifiedTypeName name="clase_7_ejercicio_1.Ejercicio_1"/>
     <fullyQualifiedTypeName name="clase_7_ejercicio_2.Ejercicio_2"/>
     <fullyQualifiedTypeName name="clase_7_ejercicio_3.Ejercicio_3"/>
+    <fullyQualifiedTypeName name="clase_8_ejercicio_1.Ejercicio_1"/>
+    <fullyQualifiedTypeName name="clase_8_ejercicio_2.Ejercicio_2"/>
+    <fullyQualifiedTypeName name="clase_8_ejercicio_3.Ejercicio_3"/>
+    <fullyQualifiedTypeName name="clase_8_ejercicio_4.Ejercicio_4"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 </qualifiedTypeNameHistroy>

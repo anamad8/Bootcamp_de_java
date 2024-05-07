@@ -1,0 +1,8 @@
+package bootcamp_test.clase_9;
+
+/* Ejercicios prácticos */
+public class Mian {
+	public static void main(String[] args) {
+		
+	}
+}
